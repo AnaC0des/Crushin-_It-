@@ -1,0 +1,481 @@
+.inst {
+  max-width: 500px;
+  margin: 24px auto;
+  background: #fff;
+  border: 1px solid #000;
+  border-radius: 5px;
+  color: #0f0f0f;
+  overflow: hidden;
+  padding-bottom: 3px;
+  box-shadow: 2px 3px 5px #919191;
+}
+
+.instBody {
+  padding: 12px 14px;
+}
+
+.instAvatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.instAvatarStory {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  border: 2px solid #fff;
+  position: relative;
+  z-index: 2;
+}
+
+.instAvatarStoryRing {
+  vertical-align: middle;
+  position: absolute;
+  z-index: 1;
+  padding: 20px;
+  margin-top: -2px;
+  margin-left: -52px;
+  border-radius: 50%;
+  background: linear-gradient(45deg,rgba(255, 247, 0, 1) 0%, rgba(252, 175, 69, 1) 22%, rgba(253, 29, 29, 1) 42%, rgba(250, 67, 171, 1) 60%, rgba(131, 58, 180, 1) 86%);
+}
+
+.instUser {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.instUserMusic {
+  font-weight: 600;
+  font-size: 15px;
+  vertical-align: 10%;
+}
+
+.instMusic {
+  font-size: 10px;
+  position: absolute;
+  margin-top: 25px;
+  margin-left: -138px;
+}
+
+.instBluecheck {
+  height: 15px;
+  width: auto;
+  margin-bottom: -1px;
+  margin-left: 2px;
+  position: relative;
+}
+
+.instIconTopRight {
+  width: 20px;
+  height: 20px;
+  margin-top: 5px;
+  float: right;
+}
+
+.instImage {
+  height: auto;
+  width: 100%;
+  display: block;
+  margin-top: 10px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.instImageFullwidth {
+  height: auto;
+  min-width: 110%;
+  display: block;
+  margin-top: 12px;
+  margin-left: -14px;
+  overflow: hidden;
+}
+
+.instIcon {
+  width: 24px;
+  height: 24px;
+  margin-right: 1px;
+  margin-top: 12px;
+  display: inline-block;
+}
+
+.instIconText {
+  font-weight: 600;
+  vertical-align: 7px;
+  margin-right: 7px;
+}
+
+.instIconRight {
+  width: 24px;
+  height: 24px;
+  float: right;
+  margin-top: 10px;
+}
+
+.instFriendAvatar {
+  position: relative;
+  display: inline-block;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 20px;
+  vertical-align: top;
+}
+
+.instFriendAvatar:not(:first-child) {
+  margin-right: -68px;
+  margin-left: 26px;
+}
+
+.instFriendAvatar img {
+  width: 100%;
+  display: block;
+  transform: scale(1, 1);
+}
+
+.instFriendOneAvatar {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 3px;
+  margin-bottom: 3px;
+}
+
+.instFriendAvatarText {
+  display: inline;
+  margin-left: 95px;
+  font-size: 15px;
+}
+
+.instText {
+  display: block;
+  margin-top: 5px;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.instLink {
+  color: #405de6;
+}
+
+.instComments {
+  display: inline-block;
+  width: 100%;
+  margin-top: 3px;
+  color: #919191;
+  font-size: 15px;
+}
+
+.instCommentText {
+  display: block;
+  margin-top: 3px;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.instTimestamp {
+  display: inline-block;
+  width: 100%;
+  margin-top: 3px;
+  color: #919191;
+  font-size: 13px;
+}
+
+/* This section is for switching between multiple fullwidth main images.*/
+
+.instImageMultiFullwidthOuter details > summary {
+  list-style: none;
+}
+
+.instImageMultiFullwidthOuter details summary::-webkit-details-marker,
+.instImageMultiFullwidthOuter details summary::marker {
+  display: none;
+}
+
+.instImageMultiFullwidthOuter {
+  min-width: 100%;
+  height: 625px;
+  margin-top: -20px;
+  margin-bottom: -32px;
+  position: relative;
+  overflow: hidden;
+}
+
+.instImageMultiFullwidthOuter p {
+  margin: 0px auto;
+}
+
+.instImageMultiFullwidth {
+  min-width: 110%;
+  height: 625px;
+}
+
+.instImageMultiFullwidthOuter details {
+  display: inline;
+}
+
+.instImageMultiFullwidthOuter summary {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  z-index: 10;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.instImageMultiFullwidthOuter details:not([open]) summary {
+  right: 0px;
+}
+
+.instImageMultiFullwidthOuter details[open] summary {
+  left: 0px;
+}
+
+.instImageMultiFullwidthOuter:has(details[open]):has(details:not([open])) .instImageMultiFullwidthInner {
+  transform: translateY(-636px);
+}
+
+.instImageMultiFullwidthOuter:has(details[open] ~ details[open]) .instImageMultiFullwidthInner {
+  transform: translateY(-1264px);
+}
+
+.instImageMultiFullwidthControllers {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.instImageMultiFullwidthControllers details {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+
+.instImageMultiFullwidthOuter details p {
+  margin: 0px;
+}
+
+.instImageMultiFullwidthControllers details:not([open]) summary {
+  height: 100%;
+  width: 50%;
+  right: 0px;
+}
+
+.instImageMultiFullwidthControllers details[open] summary {
+  height: 100%;
+  width: 50%;
+  left: 0px;
+}
+
+.instImageMultiFullwidthControllers details:not([open]) .instImageMultiFullwidthBack,
+.instImageMultiFullwidthControllers details[open] .instImageMultiFullwidthFwd {
+  display: none;
+}
+
+.instImageMultiFullwidthFwd {
+  position: absolute;
+  right: 10px;
+  width: 23px;
+  height: 23px;
+  bottom: 312px;
+  opacity: 0.5;
+}
+
+.instImageMultiFullwidthBack {
+  position: absolute;
+  left: 10px;
+  width: 23px;
+  height: 23px;
+  bottom: 312px;
+  transform: rotate(180deg);
+  z-index: 1;
+  opacity: 0.5;
+}
+
+/* This section is for the interactive Like icon.*/
+
+.instIconInteractLikeOuter details > summary {
+  list-style: none;
+}
+
+.instIconInteractLikeOuter details summary::-webkit-details-marker,
+.instIconInteractLikeOuter details summary::marker {
+  display: none;
+}
+
+.instIconInteractLikeOuter {
+  width: 24px;
+  height: 24px;
+  margin-top: -30px;
+  margin-bottom: -32px;
+  position: relative;
+  overflow: hidden;
+}
+
+.instIconInteractLikeOuter p {
+  margin: 0px auto;
+}
+
+.instIconInteractLike {
+  width: 24px;
+  height: 24px;
+}
+
+.instIconInteractLikeOuter details {
+  display: inline;
+}
+
+.instIconInteractLikeOuter summary {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.instIconInteractLikeOuter details:not([open]) summary {
+  right: 0px;
+}
+
+.instIconInteractLikeOuter details[open] summary {
+  left: 0px;
+}
+
+.instIconInteractLikeOuter:has(details[open]):has(details:not([open])) .instIconInteractLikeInner {
+  transform: translateY(-30px);
+}
+
+.instIconInteractLikeControllers {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.instIconInteractLikeControllers details {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+
+.instIconInteractLikeOuter details p {
+}
+
+.instIconInteractLikeControllers details:not([open]) summary {
+}
+
+.instIconInteractLikeControllers details[open] summary {
+}
+
+.instIconInteractLikeControllers details:not([open]) .instIconInteractBack,
+.instIconInteractLikeControllers details[open] .instIconInteractFwd {
+  display: none;
+}
+
+/* This section is for containing the non-interactive other icons and numbers.*/
+
+.instIconInteractBody {
+  padding: 0px 0px 0px 14px;
+  margin-left: 30px;
+  margin-top: -54px;
+  margin-bottom: -54px;
+}
+
+/* This section is for the interactive Save icon.*/
+
+.instIconInteractSaveOuter details > summary {
+  list-style: none;
+}
+
+.instIconInteractSaveOuter details summary::-webkit-details-marker,
+.instIconInteractSaveOuter details summary::marker {
+  display: none;
+}
+
+.instIconInteractSaveOuter {
+  width: 24px;
+  height: 24px;
+  margin-top: 6px;
+  margin-bottom: -32px;
+  margin-left: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.instIconInteractSaveOuter p {
+  margin: 0px auto;
+}
+
+.instIconInteractSave {
+  width: 24px;
+  height: 24px;
+}
+
+.instIconInteractSaveOuter details {
+  display: inline;
+}
+
+.instIconInteractSaveOuter summary {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.instIconInteractSaveOuter details:not([open]) summary {
+  right: 0px;
+}
+
+.instIconInteractSaveOuter details[open] summary {
+  left: 0px;
+}
+
+.instIconInteractSaveOuter:has(details[open]):has(details:not([open])) .instIconInteractSaveInner {
+  transform: translateY(-30px);
+}
+
+.instIconInteractSaveControllers {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.instIconInteractSaveControllers details {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+
+.instIconInteractSaveOuter details p {
+}
+
+.instIconInteractSaveControllers details:not([open]) summary {
+}
+
+.instIconInteractSaveControllers details[open] summary {
+}
+
+.instIconInteractSaveControllers details:not([open]) .instIconInteractBack,
+.instIconInteractSaveControllers details[open] .instIconInteractFwd {
+  display: none;
+}
+
