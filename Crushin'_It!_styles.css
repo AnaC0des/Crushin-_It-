@@ -3,18 +3,12 @@ body {
   font-size: 14px;
 }
 
-#workskin .yellowtail-regular {
-font-family: "Yellowtail", cursive;
+#workskin .brush-script {
+font-family: "Brush Script MT";
 font-weight: 400;
 font-size: 14px;
-text-indent: 300px;
+text-indent: 30px;
 font-style: normal;
-}
-
-#workskin .signature {
-  font-family: "Yellowtail",cursive;
-  font-size: 14 px;
-  text-indent: 30 px;
 }
 
 #workskin .headerimg {
