@@ -1,4 +1,6 @@
-.inst {
+/*Instagram Post Workskin*/
+
+#workskin .inst {
   max-width: 500px;
   margin: 24px auto;
   background: #fff;
@@ -10,11 +12,11 @@
   box-shadow: 2px 3px 5px #919191;
 }
 
-.instBody {
+#workskin .instBody {
   padding: 12px 14px;
 }
 
-.instAvatar {
+#workskin .instAvatar {
   width: 32px;
   height: 32px;
   border-radius: 50%;
@@ -23,7 +25,7 @@
   margin-right: 10px;
 }
 
-.instAvatarStory {
+#workskin .instAvatarStory {
   width: 32px;
   height: 32px;
   border-radius: 50%;
@@ -35,7 +37,7 @@
   z-index: 2;
 }
 
-.instAvatarStoryRing {
+#workskin .instAvatarStoryRing {
   vertical-align: middle;
   position: absolute;
   z-index: 1;
@@ -46,25 +48,25 @@
   background: linear-gradient(45deg,rgba(255, 247, 0, 1) 0%, rgba(252, 175, 69, 1) 22%, rgba(253, 29, 29, 1) 42%, rgba(250, 67, 171, 1) 60%, rgba(131, 58, 180, 1) 86%);
 }
 
-.instUser {
+#workskin .instUser {
   font-weight: 600;
   font-size: 15px;
 }
 
-.instUserMusic {
+#workskin .instUserMusic {
   font-weight: 600;
   font-size: 15px;
   vertical-align: 10%;
 }
 
-.instMusic {
+#workskin .instMusic {
   font-size: 10px;
   position: absolute;
   margin-top: 25px;
   margin-left: -138px;
 }
 
-.instBluecheck {
+#workskin .instBluecheck {
   height: 15px;
   width: auto;
   margin-bottom: -1px;
@@ -72,14 +74,14 @@
   position: relative;
 }
 
-.instIconTopRight {
+#workskin .instIconTopRight {
   width: 20px;
   height: 20px;
   margin-top: 5px;
   float: right;
 }
 
-.instImage {
+#workskin .instImage {
   height: auto;
   width: 100%;
   display: block;
@@ -88,7 +90,7 @@
   overflow: hidden;
 }
 
-.instImageFullwidth {
+#workskin .instImageFullwidth {
   height: auto;
   min-width: 110%;
   display: block;
@@ -97,7 +99,7 @@
   overflow: hidden;
 }
 
-.instIcon {
+#workskin .instIcon {
   width: 24px;
   height: 24px;
   margin-right: 1px;
@@ -105,20 +107,20 @@
   display: inline-block;
 }
 
-.instIconText {
+#workskin .instIconText {
   font-weight: 600;
   vertical-align: 7px;
   margin-right: 7px;
 }
 
-.instIconRight {
+#workskin .instIconRight {
   width: 24px;
   height: 24px;
   float: right;
   margin-top: 10px;
 }
 
-.instFriendAvatar {
+#workskin .instFriendAvatar {
   position: relative;
   display: inline-block;
   border: 2px solid #fff;
@@ -128,18 +130,18 @@
   vertical-align: top;
 }
 
-.instFriendAvatar:not(:first-child) {
+#workskin .instFriendAvatar:not(:first-child) {
   margin-right: -68px;
   margin-left: 26px;
 }
 
-.instFriendAvatar img {
+#workskin .instFriendAvatar img {
   width: 100%;
   display: block;
   transform: scale(1, 1);
 }
 
-.instFriendOneAvatar {
+#workskin .instFriendOneAvatar {
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -149,24 +151,24 @@
   margin-bottom: 3px;
 }
 
-.instFriendAvatarText {
+#workskin .instFriendAvatarText {
   display: inline;
   margin-left: 95px;
   font-size: 15px;
 }
 
-.instText {
+#workskin .instText {
   display: block;
   margin-top: 5px;
   font-size: 15px;
   line-height: 1.4;
 }
 
-.instLink {
+#workskin .instLink {
   color: #405de6;
 }
 
-.instComments {
+#workskin .instComments {
   display: inline-block;
   width: 100%;
   margin-top: 3px;
@@ -174,14 +176,14 @@
   font-size: 15px;
 }
 
-.instCommentText {
+#workskin .instCommentText {
   display: block;
   margin-top: 3px;
   font-size: 15px;
   line-height: 1.4;
 }
 
-.instTimestamp {
+#workskin .instTimestamp {
   display: inline-block;
   width: 100%;
   margin-top: 3px;
@@ -189,18 +191,16 @@
   font-size: 13px;
 }
 
-/* This section is for switching between multiple fullwidth main images.*/
-
-.instImageMultiFullwidthOuter details > summary {
+#workskin .instImageMultiFullwidthOuter details > summary {
   list-style: none;
 }
 
-.instImageMultiFullwidthOuter details summary::-webkit-details-marker,
-.instImageMultiFullwidthOuter details summary::marker {
+#workskin .instImageMultiFullwidthOuter details summary::-webkit-details-marker,
+#workskin .instImageMultiFullwidthOuter details summary::marker {
   display: none;
 }
 
-.instImageMultiFullwidthOuter {
+#workskin .instImageMultiFullwidthOuter {
   min-width: 100%;
   height: 625px;
   margin-top: -20px;
@@ -209,20 +209,20 @@
   overflow: hidden;
 }
 
-.instImageMultiFullwidthOuter p {
+#workskin .instImageMultiFullwidthOuter p {
   margin: 0px auto;
 }
 
-.instImageMultiFullwidth {
+#workskin .instImageMultiFullwidth {
   min-width: 110%;
   height: 625px;
 }
 
-.instImageMultiFullwidthOuter details {
+#workskin .instImageMultiFullwidthOuter details {
   display: inline;
 }
 
-.instImageMultiFullwidthOuter summary {
+#workskin .instImageMultiFullwidthOuter summary {
   position: absolute;
   width: 50%;
   height: 100%;
@@ -231,23 +231,23 @@
   overflow: hidden;
 }
 
-.instImageMultiFullwidthOuter details:not([open]) summary {
+#workskin .instImageMultiFullwidthOuter details:not([open]) summary {
   right: 0px;
 }
 
-.instImageMultiFullwidthOuter details[open] summary {
+#workskin .instImageMultiFullwidthOuter details[open] summary {
   left: 0px;
 }
 
-.instImageMultiFullwidthOuter:has(details[open]):has(details:not([open])) .instImageMultiFullwidthInner {
+#workskin .instImageMultiFullwidthOuter:has(details[open]):has(details:not([open])) .instImageMultiFullwidthInner {
   transform: translateY(-636px);
 }
 
-.instImageMultiFullwidthOuter:has(details[open] ~ details[open]) .instImageMultiFullwidthInner {
+#workskin .instImageMultiFullwidthOuter:has(details[open] ~ details[open]) .instImageMultiFullwidthInner {
   transform: translateY(-1264px);
 }
 
-.instImageMultiFullwidthControllers {
+#workskin .instImageMultiFullwidthControllers {
   position: absolute;
   left: 0px;
   top: 0px;
@@ -255,35 +255,35 @@
   height: 100%;
 }
 
-.instImageMultiFullwidthControllers details {
+#workskin .instImageMultiFullwidthControllers details {
   position: absolute;
   width: 100%;
   height: 100%;
   margin: 0px;
 }
 
-.instImageMultiFullwidthOuter details p {
+#workskin .instImageMultiFullwidthOuter details p {
   margin: 0px;
 }
 
-.instImageMultiFullwidthControllers details:not([open]) summary {
+#workskin .instImageMultiFullwidthControllers details:not([open]) summary {
   height: 100%;
   width: 50%;
   right: 0px;
 }
 
-.instImageMultiFullwidthControllers details[open] summary {
+#workskin .instImageMultiFullwidthControllers details[open] summary {
   height: 100%;
   width: 50%;
   left: 0px;
 }
 
-.instImageMultiFullwidthControllers details:not([open]) .instImageMultiFullwidthBack,
-.instImageMultiFullwidthControllers details[open] .instImageMultiFullwidthFwd {
+#workskin .instImageMultiFullwidthControllers details:not([open]) .instImageMultiFullwidthBack,
+#workskin .instImageMultiFullwidthControllers details[open] .instImageMultiFullwidthFwd {
   display: none;
 }
 
-.instImageMultiFullwidthFwd {
+#workskin .instImageMultiFullwidthFwd {
   position: absolute;
   right: 10px;
   width: 23px;
@@ -292,7 +292,7 @@
   opacity: 0.5;
 }
 
-.instImageMultiFullwidthBack {
+#workskin .instImageMultiFullwidthBack {
   position: absolute;
   left: 10px;
   width: 23px;
@@ -303,18 +303,16 @@
   opacity: 0.5;
 }
 
-/* This section is for the interactive Like icon.*/
-
-.instIconInteractLikeOuter details > summary {
+#workskin .instIconInteractLikeOuter details > summary {
   list-style: none;
 }
 
-.instIconInteractLikeOuter details summary::-webkit-details-marker,
-.instIconInteractLikeOuter details summary::marker {
+#workskin .instIconInteractLikeOuter details summary::-webkit-details-marker,
+#workskin .instIconInteractLikeOuter details summary::marker {
   display: none;
 }
 
-.instIconInteractLikeOuter {
+#workskin .instIconInteractLikeOuter {
   width: 24px;
   height: 24px;
   margin-top: -30px;
@@ -323,20 +321,20 @@
   overflow: hidden;
 }
 
-.instIconInteractLikeOuter p {
+#workskin .instIconInteractLikeOuter p {
   margin: 0px auto;
 }
 
-.instIconInteractLike {
+#workskin .instIconInteractLike {
   width: 24px;
   height: 24px;
 }
 
-.instIconInteractLikeOuter details {
+#workskin .instIconInteractLikeOuter details {
   display: inline;
 }
 
-.instIconInteractLikeOuter summary {
+#workskin .instIconInteractLikeOuter summary {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -345,19 +343,19 @@
   overflow: hidden;
 }
 
-.instIconInteractLikeOuter details:not([open]) summary {
+#workskin .instIconInteractLikeOuter details:not([open]) summary {
   right: 0px;
 }
 
-.instIconInteractLikeOuter details[open] summary {
+#workskin .instIconInteractLikeOuter details[open] summary {
   left: 0px;
 }
 
-.instIconInteractLikeOuter:has(details[open]):has(details:not([open])) .instIconInteractLikeInner {
+#workskin .instIconInteractLikeOuter:has(details[open]):has(details:not([open])) .instIconInteractLikeInner {
   transform: translateY(-30px);
 }
 
-.instIconInteractLikeControllers {
+#workskin .instIconInteractLikeControllers {
   position: absolute;
   left: 0px;
   top: 0px;
@@ -365,48 +363,35 @@
   height: 100%;
 }
 
-.instIconInteractLikeControllers details {
+#workskin .instIconInteractLikeControllers details {
   position: absolute;
   width: 100%;
   height: 100%;
   margin: 0px;
 }
 
-.instIconInteractLikeOuter details p {
-}
-
-.instIconInteractLikeControllers details:not([open]) summary {
-}
-
-.instIconInteractLikeControllers details[open] summary {
-}
-
-.instIconInteractLikeControllers details:not([open]) .instIconInteractBack,
-.instIconInteractLikeControllers details[open] .instIconInteractFwd {
+#workskin .instIconInteractLikeControllers details:not([open]) .instIconInteractBack,
+#workskin .instIconInteractLikeControllers details[open] .instIconInteractFwd {
   display: none;
 }
 
-/* This section is for containing the non-interactive other icons and numbers.*/
-
-.instIconInteractBody {
+#workskin .instIconInteractBody {
   padding: 0px 0px 0px 14px;
   margin-left: 30px;
   margin-top: -54px;
   margin-bottom: -54px;
 }
 
-/* This section is for the interactive Save icon.*/
-
-.instIconInteractSaveOuter details > summary {
+#workskin .instIconInteractSaveOuter details > summary {
   list-style: none;
 }
 
-.instIconInteractSaveOuter details summary::-webkit-details-marker,
-.instIconInteractSaveOuter details summary::marker {
+#workskin .instIconInteractSaveOuter details summary::-webkit-details-marker,
+#workskin .instIconInteractSaveOuter details summary::marker {
   display: none;
 }
 
-.instIconInteractSaveOuter {
+#workskin .instIconInteractSaveOuter {
   width: 24px;
   height: 24px;
   margin-top: 6px;
@@ -416,20 +401,20 @@
   overflow: hidden;
 }
 
-.instIconInteractSaveOuter p {
+#workskin .instIconInteractSaveOuter p {
   margin: 0px auto;
 }
 
-.instIconInteractSave {
+#workskin .instIconInteractSave {
   width: 24px;
   height: 24px;
 }
 
-.instIconInteractSaveOuter details {
+#workskin .instIconInteractSaveOuter details {
   display: inline;
 }
 
-.instIconInteractSaveOuter summary {
+#workskin .instIconInteractSaveOuter summary {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -438,19 +423,19 @@
   overflow: hidden;
 }
 
-.instIconInteractSaveOuter details:not([open]) summary {
+#workskin .instIconInteractSaveOuter details:not([open]) summary {
   right: 0px;
 }
 
-.instIconInteractSaveOuter details[open] summary {
+#workskin .instIconInteractSaveOuter details[open] summary {
   left: 0px;
 }
 
-.instIconInteractSaveOuter:has(details[open]):has(details:not([open])) .instIconInteractSaveInner {
+#workskin .instIconInteractSaveOuter:has(details[open]):has(details:not([open])) .instIconInteractSaveInner {
   transform: translateY(-30px);
 }
 
-.instIconInteractSaveControllers {
+#workskin .instIconInteractSaveControllers {
   position: absolute;
   left: 0px;
   top: 0px;
@@ -458,24 +443,95 @@
   height: 100%;
 }
 
-.instIconInteractSaveControllers details {
+#workskin .instIconInteractSaveControllers details {
   position: absolute;
   width: 100%;
   height: 100%;
   margin: 0px;
 }
 
-.instIconInteractSaveOuter details p {
-}
-
-.instIconInteractSaveControllers details:not([open]) summary {
-}
-
-.instIconInteractSaveControllers details[open] summary {
-}
-
-.instIconInteractSaveControllers details:not([open]) .instIconInteractBack,
-.instIconInteractSaveControllers details[open] .instIconInteractFwd {
+#workskin .instIconInteractSaveControllers details:not([open]) .instIconInteractBack,
+#workskin .instIconInteractSaveControllers details[open] .instIconInteractFwd {
   display: none;
 }
 
+/*Instagram DM Workskin*/
+
+#workskin .instaDM {
+  max-width: 300px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: table;
+  margin: auto;
+}
+
+#workskin .headerIDM {
+  min-width: 300px;
+  background-color: #f6f6f6;
+  border-bottom: 1px solid #b2b2b2;
+  color: #000000;
+  font-weight: bold;
+  padding-bottom: .5em;
+  padding-top: .5em;
+  margin-left: -.5em;
+  margin-right: -.5em;
+  margin-bottom: -2em;
+  text-align: center;
+  display: table;
+}
+
+#workskin .messagebodyIDM {
+  background-color: #FFFFFF;
+  display: table;
+  padding-left: .5em;
+  padding-right: .5em;
+}
+
+#workskin .textIDM {
+  float: left;
+  color: #000000;
+  margin: 0 0 0.5em;
+  border-radius: 1em;
+  padding: 0.5em 1em;
+  background: #ffffff;
+  max-width: 75%;
+  clear: both;
+  position: relative;
+  border-bottom: 1px solid #b2b2b2;
+  border-top: 1px solid #b2b2b2;
+  border-left: 1px solid #b2b2b2;
+  border-right: 1px solid #b2b2b2;
+}
+
+#workskin .textIDM::after {
+  content: "";
+  position: absolute;
+  left: -.5em;
+  bottom: 0;
+  width: 0.5em;
+  height: 1em;
+}
+
+#workskin .replyIDM {
+  float: right;
+  color: #000000;
+  margin: 0 0 0.5em;
+  border-radius: 1em;
+  padding: 0.5em 1em;
+  background: #82CAFF;
+  max-width: 75%;
+  clear: both;
+  position: relative;
+}
+
+#workskin .replyIDM::after {
+  content: "";
+  position: absolute;
+  right: -0.5em;
+  bottom: 0;
+  width: 0.5em;
+  height: 1em;
+}
+
+#workskin .hide {
+  display: none;
+}
